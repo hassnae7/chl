@@ -1,0 +1,10 @@
+.logo:hover{
+    font-style: oblique;
+    color: blue;
+    font-size: larger;
+}
+.logo{
+    color: red;
+    font-weight: bold;
+    font-style: normal;
+}

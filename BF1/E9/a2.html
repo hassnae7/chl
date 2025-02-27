@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+    <head>
+         <meta charset="utf-8"/>
+        <title>Buscador de smartphones</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+    </head>
+    <body>
+        <h1>Buscador de smartphones</h1>
+        <label>¿Qué marca prefieres en el teléfono?:
+            <input list="smartphones" type="text" name="smartphones-favorito">
+        </label>
+        
+        <datalist id="smartphones">
+            <option value="Apple"></option>
+            <option value="Samsung"></option>
+            <option value="Xiaomi"></option>
+            <option value="LG"></option>
+            <option value="Nokia"></option>
+        </datalist>
+        <label for="precio">Precio:</label>
+        <select id="precio" name="Selecciona un Precio">
+            <option value="">Selecciona un Precio</option>
+            <option value="0-200">0 - 200€</option>
+            <option value="300-500">201 - 500€</option>
+            <option value="501-800">501 - 800€</option>
+            <option value="801-1200">801 - 1200€</option>
+            <option value="">....€ más</option>
+        </select>
+        <button type="submit">
+            Buscar
+        </button>
+    </body>
+</html>
