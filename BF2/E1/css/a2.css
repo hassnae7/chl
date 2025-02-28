@@ -1,0 +1,19 @@
+p{
+    font-size: 20px;
+}
+#title {
+    color: brown;
+}  
+#color {
+    color: green;
+}  
+#p {
+    color: gray;
+}  
+#primero{
+    color: blue;
+} 
+*{
+    margin: 0;
+    padding: 0;
+}
