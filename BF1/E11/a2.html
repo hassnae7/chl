@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+    <head>
+         <meta charset="utf-8"/>
+        <title>Accesibilidad</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+    </head>
+    <body>
+        <h1>Regístrate</h1>
+        <h3>Es gratis y cualquiera puede unirse.</h3>
+     <form>
+        <fieldset>
+            <legend>un formulario de contacto</legend>
+            <label for="nombre"> 
+                Nombre:
+            <input type="text" placeholder="Escribe tu nombre" name="nombre" id="nombre">
+            </label>
+            <br>
+            <label for="Apellidos">
+                Apellidos:
+            <input type="apellidos" placeholder="apellidos" name="apellidos" id="Apellidos">
+            </label>
+            <br>
+            <label for="Tu derección de Correo electrónico">
+                Email:
+            <input type="email" placeholder="email" name="email" id="Tu derección de Correo electrónico">
+            </label>
+            <br>
+            <label for="Contraseña nueva">
+                Contraseña nueva:
+            <input type="password" placeholder="password" name="password" id="Contraseña nueva">
+            </label>
+            <br>
+            <label>
+                Sexo:
+            </label>
+            <select name="Sexo">
+                <option value="" aria-label="Sexo" disabled selected>Selecciona el Sexo</option>
+                <option value="0">Hombre</option>
+                <option value="1">Mojer</option>
+                <option>NC</option>
+            </select>
+            <br>
+            <label for="birthdate">Fecha de nacimiento:</label>
+            <input type="date" name="birthdate" id="birthdate">
+            <br>
+            <button type="submit">
+                Registrarse
+            </button>
+            <p>¿ya eres miembro?<strong>Inicia tu sesión</strong> </p>
+            </fieldset>
+     </form>   
+    </body>
+</html>
