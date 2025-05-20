@@ -4,119 +4,127 @@
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
 }
-body{
-    background-color: rgb(128, 58, 160);
-    color: rgb(213, 232, 249);
+
+body {
+  height: 100vh;
+  background: url("img.fondo.jpeg") no-repeat center / cover;
+  padding: 50px 5%;
+
+
 }
-.header{
-    position: fixed;
+
+.container {
+    position: relative;
+    height: 100%;
+    background: rgba(255, 255, 255, .1);
+    
+    border-radius: 100px;
+}
+
+header {
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px;
-    background: rgb(224, 117, 3);
+    padding: 25px 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
 }
-.logo{
-    font-size: 40px;
-    color: rgb(255, 255, 255);
-    font-weight: 600;
-    transition: 0.5s ease;
+
+.logo {
+  font-size: 25px;
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: 600;
 }
-.logo1{
-    font-size: 25px;
+
+.navbar {
+  font-size: 20px;
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: 500;
+  margin-right: 10%;
+
+
+  margin-left: 35px;
+  border-bottom: 2px solid transparent;
+  transition: .5s;
 }
-.logo:hover{
-    color: rgb(147, 85, 177);
-    text-shadow: 0 0 50px rgb(171, 105, 197);
-    transform: scale(2.0);
-}
-.navbar a{
-    font-size: 18px;
-    color: white;
-    font-weight: 500px;
-    margin-right: 35px;
-    transition: 0.5s ease;
-}  
-.navbar a:hover,
-.navbar a.active{
-    box-shadow: 0 0 30px rgb(144, 32, 164);
-    color: rgb(144, 32, 164);
-}
-.home{
-    height: 100vh;
-    background-image: url(img.jpeg);
-    background-size: cover;
-    background-position: center;
+
+.home {
     display: flex;
     align-items: center;
-    padding: 0 10%;
-}
-.home-content h1{
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 1.2;
-}
-.home-content h3{
-    font-size: 25px;
-    color: rgb(224, 117, 3);
-}
-.home-content p{
-    font-size: 18px;
-    margin: 20px 0 50px;
-}
-.home-content .btn-box{
-    width: 350px;
-    height: 50px;
-    background: rgb(66, 44, 88);
-    justify-content:space-between;
-    display: inline;
-    padding: 10px;
-}
-.btn-box a {
-    position: relative;
-    display: inline-flex;
-    width: 150px;
     height: 100%;
-    background: rgb(254, 253, 255);
-    border-radius: 10px;
-    font-size: 19px;
-    color: rgb(0, 255, 64);
-    font-weight: 400;
-    letter-spacing: 1px;
-    justify-content: center;
-    align-items: center;
-    background: transparent;
-    z-index: -1;
-    overflow: hidden;
-    transition: .5s;
+    gap: 50px;
+    padding: 50px;
+    color: white;
 }
-.btn-box a:nth-child(2) {
-    background: transparent;
-    color: rgb(255, 255, 255);
+
+.home-detail h1 {
+  font-size: 55px;
+  line-height: 1;
 }
-.btn-box a:nth-child(2):hover {
-    color:black ;
-}
-.btn-box a::before{
-    content: '';
-    position:absolute;
-    top: 0;
-    left: 0;
-    width: 0%;
-    height: 100%;
-    background: rgb(0, 0, 0);
-    z-index: -1;
-    transition: .5s;
-}
-.btn-box a:nth-child(2)::before {
-    background-color: orangered;
+
+.home-detail h3 {
+  font-size: 33px;
 
 }
 
-.home-sci{
-    background-color: aqua;
+.home-detail p {
+  margin: 10px 0 20px;
+}
+
+.home-detail .downlaod-social {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  background: #fff;
+  border: 2px solid #fff;
+  border-radius: 40px;
+  box-shadow: 0 0 10px #fff;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background: transparent;
+  box-shadow: none;
+  color: #fff;
+}
+
+.home-detail .social-icons a {
+  display: inline-flex;
+  padding: 8px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 8px;
+  transition: .5s;
+
+}
+
+.home-detail .social-icons a:hover {
+  background: #fff;
+  box-shadow: 0 0 10px #fff;
+  color: #333;
+
+}
+
+.home-img .img-box img {
+  position: relative;
+  width: 28vw;
+  height: 28vw;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 20px #fff;
+  object-fit: cover;
 }
