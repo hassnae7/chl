@@ -1,0 +1,41 @@
+
+html, body {
+  height: 100vh;
+  background:("");
+  padding: 70px 15%;
+  background-size: cover;
+  align-items: center;
+  color: rgb(92, 108, 39);
+  justify-content: center;
+}
+
+main {
+    background-color: #4cccc6;
+    padding: 30px;
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
+    max-width: 300px;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+nav ul li {
+    margin: 15px 0;
+}
+
+nav ul il a {
+    color: #bbcc4c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+nav ul li a:hover {
+    text-decoration: underline;
+}

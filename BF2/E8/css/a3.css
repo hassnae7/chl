@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-align: center;
+    background-image: url('fotos/margin\ foto.jfif');
+    background-size: cover;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.btn {
+    background-color: #ff4e4e;
+    color: white;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.btn2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+
+}
+
+.btn2 h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.btn p {
+    max-width: 700px;
+    margin: auto 0 30px;
+    font-size: 1rem;
+}
+
+.btn-box {
+    font-size:medium;
+    background-color: white;
+    color: #ff4e4e;
+    border-radius: 40px;
+    padding: 20px;
+    margin: bottom 20px;
+}
+

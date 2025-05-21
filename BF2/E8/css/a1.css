@@ -1,3 +1,17 @@
-.p {
-   margin-bottom: 9%;
+body {
+   font-size: Georgia, serif;
+   margin: 10px;
+   margin-right: 70px;
+   
+}
+
+h1 {
+   font-size: 40px; 
+   margin-bottom:-3%;
+}
+
+p {
+   font-size: 18px;
+   font-weight:lighter ;
+   margin-bottom: 170px;
 }
