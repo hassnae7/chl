@@ -1,22 +1,14 @@
-function changetogreen(id, bclass) {
-    var elemento = document.getElementById(id);
-    elemento.style.color = "#00ff00";
+const edad = parseInt(prompt("cuantos anos tienes?"));
 
-    var botones = document.getElementsByClassName(bclass);
-    //botones ===> [b0, b1]
-
-    for(var pos = 0; pos < botones.length; pos++) {
-        botones[pos].style.display = "none";
-    } 
-}
-function changetored(id, bclass) {
-    var elemento = document.getElementById(id);
-    elemento.style.color = "#ff0000";
-
-    var botones = document.getElementsByClassName(bclass);
-    //botones ===> [b0, b1]
-
-    for(var pos =0; pos <botones.length; pos++) {
-        botones[pos].style.display = "none";
+if (isNaN(edad)) {
+    alert("Por favor, introduce una edad valida");
+} else {
+    if (edad >= 18) {
+        alert("Eres mayor de edad");
+    } else {
+        alert("Eres menor de edad");
     }
 }
+
+/* isNaN : verifica se es el numero valido*/
+/* alert : mostrar informacion o avisos rapidament*/
