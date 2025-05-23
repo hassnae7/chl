@@ -3,7 +3,7 @@ const contrasenareal = "misecrito";
 const entradaUsuario = prompt("introduce la contrasena");
 
 if(entradaUsuario && entradaUsuario.toLowerCase() === contrasenareal.toLowerCase()) {
-    alert("contraseña bien");
+    alert("contraseña correcta");
 } else {
-    alert("contraseña mal");
+    alert("contraseña incorrecta");
 }
